@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor Eterno</title>
+    <style>
+        body {
+            background-color: #ffccd5;
+            font-family: 'Georgia', serif;
+            color: #d53f61;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            top: 20%;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #d53f61;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .heart {
+            font-size: 3rem;
+            color: #f20044;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .romantic-quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-top: 30px;
+            color: #d53f61;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            font-size: 1rem;
+            color: #d53f61;
+            text-align: center;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #f20044;
+            font-weight: bold;
+        }
+
+        .heart-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://www.transparenttextures.com/patterns/lil-bit-of-grunge.png');
+            background-size: cover;
+            opacity: 0.3;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart-background"></div>
+    <div class="container">
+        <h1>Amor Eterno</h1>
+        <h2>Para ti, mi razón de ser</h2>
+        <p>
+            El amor es ese latido que nunca deja de sonar. 
+            Cada mirada tuya es un suspiro que se queda en mi corazón, 
+            y cada palabra un dulce susurro que calma mi alma.
+        </p>
+        <p class="heart">❤️</p>
+        <p class="romantic-quote">"El amor no se mira, se siente, y aún más cuando ella está cerca." - Pablo Neruda</p>
+    </div>
+
+    <div class="footer">
+        <p>Hola un <span class="heart">❤️</span> para ti</p>
+        <p><a href="#">Te amo y bañate ajjjjj</a></p>
+    </div>
+</body>
+</html>
